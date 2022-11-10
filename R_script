@@ -1,7 +1,7 @@
 install.packages("remotes")
 remotes::install_github("GRousselet/bootcorci")
 library(bootcorci)
-Data <- read.csv("/Users/username/Desktop/R_mtsd/Fig8distal.csv")
+Data <- read.csv("/Users/username/Desktop/R_mtsd/Fig5all.csv")
 x1 <-c(na.omit(Data[,1]))
 y1 <-c(na.omit(Data[,2]))
 x2 <-c(na.omit(Data[,3]))
